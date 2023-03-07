@@ -1,0 +1,114 @@
+@media only screen and (max-width : 1846px) {
+  .navitem a {
+    padding: 0.5em 0;
+    font-size: 1.5rem;
+  }
+  .navitem li {
+    margin: 0 0.8rem;
+  }
+  .featured_game .roundCard .game_content a {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+  }
+}
+@media only screen and (max-width : 1549px) {
+  .navitem a {
+    padding: 0.5em 0;
+    font-size: 1.2rem;
+  }
+  .navitem li {
+    margin: 0 0.5rem;
+  }
+  .gameCard_bottom_img {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media only screen and (max-width : 1361px) {
+  .navitem a {
+    padding: 0.5em 0;
+    font-size: 1.2rem;
+  }
+  .navitem li {
+    margin: 0 0.5rem;
+  }
+}
+@media only screen and (max-width : 1272px) {
+  .navitem a {
+    padding: 0.5em 0;
+    font-size: 1rem;
+  }
+  .best-gameImg .owl-dots {
+    left: 50% !important;
+  }
+  .nav {
+    display: none;
+  }
+  .menu-btn {
+    display: flex;
+  }
+  .mobile_menu {
+    display: flex;
+    opacity: 1;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+@media only screen and (max-width : 1135px) {
+  #best_games-slider .best-gameVdo .vdoBx__content {
+    width: 310px;
+  }
+  #best_games-slider .best-gameVdo .vdoBx .play_icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  #best_games-slider .best-gameVdo .vdoBx .play_icon::after {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 12px solid #fff;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 1.2rem;
+    height: 0.8rem;
+  }
+  .featured_game .roundCard .game_content a {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width : 991px) {
+  .mobile_menu .single_nav {
+    width: 120px;
+  }
+  #best_games-slider .best-gameVdo .vdoBx__content .game_name a {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width : 768px) {
+  .mobile_menu {
+    padding: 1rem;
+  }
+  lord-icon {
+    width: 50px !important;
+    height: 40px !important;
+  }
+  #best_games-slider .best-gameVdo .vdoBx__content {
+    width: 380px;
+  }
+  .bestgame_video {
+    margin-bottom: 1rem;
+  }
+  .stars lord-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  #best_games-slider .best-gameVdo .vdoBx__content {
+    max-width: 300px;
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width : 600px) {
+  .stars lord-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
